@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #C9CCD3;
+ background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: lighten;
+}
+.container {
+  width: 32em;
+  background-image: url("https://i.postimg.cc/hv8qzWDC/gradienta-Le-G68-Pr-XA6-Y-unsplash.jpg");
+  padding: 5em;
+border-bottom: 13px solid #F5FFFA;
+border-radius: 0px 0px 40px 40px;
+  border: 5px inset #F5FFFA;
+border-radius: 14px 14px 14px 14px;
+  border-bottom: 13px solid #000000;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;);
+}
+.wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+canvas {
+  border: 3px solid #F5FFFA;
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  width: 65%;
+  hight: 10;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+border-radius: 14px 14px 14px 14px;
+  
+}
+button#reload-button {
+  font-size: 24px;
+  width: 4.11em;
+  background-color: #F5FFFA;
+  border: none;
+ border-radius: 14px 14px 14px 14px;
+  color: #000000;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+input[type="text"] {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.05em;
+  width: 100%;
+  padding: 1em 0.7em;
+border-bottom: 5px solid #000000	;
+border-radius: 0px 0px 40px 40px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  
+}
+button#submit-button {
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+font-size: 18px;
+   letter-spacing: 2px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border: none;
+  margin-top: 1em;
+  padding: 0.8em 0;
+  border-radius: 0.4em;
+  font-family: "Roboto Mono", monospace;
+}
